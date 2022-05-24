@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "training_mod:block/mythril_ore"}
+  }
+}
