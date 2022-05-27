@@ -3,6 +3,7 @@ package net.gwakamaul.training_mod;
 import net.fabricmc.api.ModInitializer;
 import net.gwakamaul.training_mod.block.ModBlocks;
 import net.gwakamaul.training_mod.item.ModItems;
+import net.gwakamaul.training_mod.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +17,7 @@ public class TrainingMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModRegistries.registerModStuffs();
 	}
 
 }
